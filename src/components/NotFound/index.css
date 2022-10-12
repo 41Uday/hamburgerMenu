@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.cont-1-not {
+  padding: 50px;
+}
+
+.not-found-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-1-n {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.para-n {
+  color: #dcdcdc;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.not-img {
+  height: 450px;
+  width: 500px;
+}

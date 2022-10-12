@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.about-cont {
+  padding: 50px;
+}
+
+.inner-about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-about {
+  height: 600px;
+  width: 60%;
+}
+
+.img-about-1 {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .img-about-1 {
+    display: flex;
+    height: 600px;
+    width: 100%;
+  }
+  .img-about {
+    display: none;
+  }
+  .about-cont {
+    padding: 10px;
+  }
+}
